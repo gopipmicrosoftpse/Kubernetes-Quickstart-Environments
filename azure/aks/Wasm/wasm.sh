@@ -1,5 +1,5 @@
-clusterName=aksenvironment01
-resourceGroup=devrelasaservice
+clusterName=gopaksenvironment01
+resourceGroup=gopaks
 wasmNodePool=wasmnodepool
 
 az aks nodepool add \
