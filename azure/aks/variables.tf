@@ -1,11 +1,11 @@
 variable "name" {
   type = string
-  default = "aksenvironment01"
+  default = "gopaksenvironment01"
 }
 
 variable "resource_group_name" {
   type = string
-  default = "devrelasaservice"
+  default = "gopaks"
 }
 
 variable "location" {
@@ -20,5 +20,5 @@ variable "node_count" {
 
   variable "k8s_version" {
     type = string
-    default = "1.29.4"
+    default = "1.31.3"
   }
